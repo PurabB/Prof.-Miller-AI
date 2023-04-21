@@ -1,0 +1,19 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <py-env>
+        - paths:
+          - ./Professor.py
+      </py-env>
+    </head>
+  <body>
+    <h1>Let's print random numbers</h1>
+    <b> <label id="lucky"></label></b>
+    <py-script>
+      from Professor import main
+      main()
+      
+    </py-script>
+  </body>
+</html>
